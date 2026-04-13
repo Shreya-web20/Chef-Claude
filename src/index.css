@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e5f2f9;
+}
+
+
+/* CHEF CLAUDE CSS=== */
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px solid black;
+  background-color: white;
+  font-weight: 400;
+}
+
+.chef-img {
+  height: 60px;
+}
+
+.chef-text {
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+main {
+  padding: 30px 30px 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+input {
+  border: 1px solid black ;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 50rem;
+}
+
+.recipe-container{
+  display: flex;
+  gap: 40rem;
+  align-items: center;
+  background-color: #e6e7e8;
+  padding-left: 2rem;
+  border-radius: 0.5rem;
+}
+
+.recipe-button{
+  background-color: rgb(9, 32, 243);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.recipe-button:hover {
+  background-color: rgb(184, 115, 24);
+}
+
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  border: 2px solid black;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.suggested-recipe-container{
+  line-height: 28px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background: rgb(239, 234, 234);
+  padding: 20px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.suggested-recipe-container h2{
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.suggested-recipe-container pre {
+  white-space: pre-wrap;
+  font-size: 15px;
+  color: #444;
+}
+
+
+.suggested-recipe-container ul, .suggested-recipe-container ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.suggested-recipe-container li {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.suggested-recipe-container img{
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 80px;
+  color: #555;
+}
+
+.empty-state h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.empty-state p {
+  font-size: 18px;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #444;
+}
+
