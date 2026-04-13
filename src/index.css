@@ -42,12 +42,15 @@ input {
   border: 1px solid black ;
   border-radius: 0.3rem;
   height: 2rem;
-  width: 50rem;
+  width: 100%;
+  max-width:500px;
 }
 
 .recipe-container{
   display: flex;
-  gap: 40rem;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap:wrap;
   align-items: center;
   background-color: #e6e7e8;
   padding-left: 2rem;
@@ -135,5 +138,28 @@ button {
   font-size: 18px;
   margin-top: 20px;
   color: #444;
+}
+
+@media (max-width: 768px) {
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .recipe-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+
 }
 
