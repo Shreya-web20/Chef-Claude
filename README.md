@@ -1,16 +1,66 @@
-# React + Vite
+# Chef Claude – AI Recipe Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Chef Claude is a React-based recipe generation application that recommends recipes based on ingredients provided by the user. Users can enter ingredients (atleast 4 ingredients), generate recipes through API integration, and view recipe details including the dish name, ingredients list, and preparation instructions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Ingredient-based recipe generation
+* API integration for recipe recommendations
+* Dynamic recipe suggestions
+* Dish name display
+* Ingredient list generation
+* Step-by-step recipe instructions
+* Responsive user interface
+* Conditional rendering based on user input
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* REST API Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+https://recipe-app-chef-claude.netlify.app/
+
+
+## Installation
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+
+## Learning Outcomes
+
+* API integration
+* Asynchronous JavaScript
+* Data fetching with APIs
+* React Hooks
+* Conditional rendering
+* State management
+
+
+## Screenshots
+
+* Home Page
+<div align="center"><img src="./screenshots/home.png" width="800" /></div>
+
+
+* Ingredients Added
+<div align="center"><img src="./screenshots/ingredientsAdded.png" width="800" /></div>
+
+
+* Generated Recipe
+<div align="center"><img src="./screenshots/generated-recipe.png" width="800" /></div>
+
+
+* Ingredients List
+<div align="center"><img src="./screenshots/ingredients-required.png" width="800" /></div>
+
+
+* Instructions 
+<div align="center"><img src="./screenshots/instructions.png" width="800" /></div>
